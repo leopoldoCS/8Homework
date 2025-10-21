@@ -1,0 +1,144 @@
+/*-----BOX SIZING HOMEWORK 7-----*/
+:root { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+/*-----BOX SIZING HOMEWORK 7-----*/
+
+/*--------------------------HOMEWORK 6----------------------*/
+/*Color Pallate - Cool Costal Vibes*/
+/* NAVY- #2b2d42 | GRAY- #8d99ae | WHITE- #edf2f4 | RED- #ef233c | DARKER RED - #d90429 |*/
+
+/*FONTS*/
+/* font-family: "BBH Sans Bartle"; */
+/* font-family: "Smooch Sans" */
+
+body{
+    background-color:#2b2d42;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 70px;
+    margin: 0;/*HOMEWORK 7*/
+}
+
+header{
+    background-color: #8d99ae;
+    margin-top:0;/*HOMEWORK 7*/
+}
+
+footer{
+    background-color: #8d99ae;
+    text-align: center; /*HOMEWORK 7*/
+}
+
+.workExperience{ /*HOMEWORK 8*/
+      background: 
+    linear-gradient(rgba(46, 48, 70, 0.85), rgba(252, 4, 45, 0.85)),
+    url("images/RedCode.jpg"); 
+
+  background-position: cover;
+  background-size:contain; 
+  background-attachment: fixed;
+
+  color: white;                 
+}
+
+.Education{
+    background-color: #d90429;
+    color: white;
+}
+
+h1{
+
+}
+
+h2{
+  font-family: "Smooch Sans";
+  font-optical-sizing: auto;
+  font-style: normal; 
+  margin-top: 0;/*HOMEWORK 7*/
+}
+
+p{
+    font-family: 'Courier New';
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*-----------------------------HOMEWORK 7---------------------*/
+.content-wrap{
+    max-width: 950px; margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.contact-info a{
+    padding: 10px; display: inline-block;
+}
+
+.profile-img{
+    border-radius:50%;
+}
+
+header h1, h2{
+    margin: 0;
+}
+
+.column-narrow{
+   width: 30%; float:left; padding-right:3%; min-height:175px;
+}
+.column-wide{
+    width: 70%; float:left; min-height: 225px;
+}
+
+/*-----------------------------HOMEWORK 8---------------------*/
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background:#d90429;
+  border-bottom: 4px solid #ef233c;
+}
+
+.navigationWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  max-width: 950px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navigationLinks{
+  display: flex;
+  gap: 25px;
+  color:white;
+}
+
+.navigationLinks a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.navigationLinks a:hover {
+  color: black;
+}
+
+.fa-solid{
+    font-size: 25px;
+    color:#d90429;
+}
+
+.fa-brands{
+    font-size: 25px;
+    color:#d90429;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    color: black;
+}
